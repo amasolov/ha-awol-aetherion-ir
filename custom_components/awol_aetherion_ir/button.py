@@ -60,6 +60,26 @@ BUTTON_DESCRIPTIONS: tuple[AetherionButtonDescription, ...] = (
         command_code=AetherionCode.SETTINGS,
     ),
     AetherionButtonDescription(
+        key="up",
+        name="Up",
+        command_code=AetherionCode.UP,
+    ),
+    AetherionButtonDescription(
+        key="down",
+        name="Down",
+        command_code=AetherionCode.DOWN,
+    ),
+    AetherionButtonDescription(
+        key="left",
+        name="Left",
+        command_code=AetherionCode.LEFT,
+    ),
+    AetherionButtonDescription(
+        key="right",
+        name="Right",
+        command_code=AetherionCode.RIGHT,
+    ),
+    AetherionButtonDescription(
         key="ok",
         name="OK",
         command_code=AetherionCode.OK,
@@ -108,6 +128,16 @@ BUTTON_DESCRIPTIONS: tuple[AetherionButtonDescription, ...] = (
         key="disney_plus",
         name="Disney+",
         command_code=AetherionCode.DISNEY_PLUS,
+    ),
+    AetherionButtonDescription(
+        key="volume_up",
+        name="Volume Up",
+        command_code=AetherionCode.VOLUME_UP,
+    ),
+    AetherionButtonDescription(
+        key="volume_down",
+        name="Volume Down",
+        command_code=AetherionCode.VOLUME_DOWN,
     ),
 )
 
