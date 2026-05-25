@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "infrared_entity_id": "Infrared transmitter"
+        },
+        "data_description": {
+          "infrared_entity_id": "The infrared transmitter entity that can reach the projector."
+        },
+        "description": "Select the infrared transmitter entity to use for controlling your AWOL Vision Aetherion Max."
+      }
+    },
+    "abort": {
+      "no_emitters": "No infrared emitter entities found. Set up an IR transmitter first.",
+      "already_configured": "This projector is already configured with this emitter."
+    }
+  }
+}

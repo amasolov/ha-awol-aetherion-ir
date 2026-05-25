@@ -1,0 +1,11 @@
+{
+  "domain": "awol_aetherion_ir",
+  "name": "AWOL Vision Aetherion Max Infrared",
+  "codeowners": ["@amasolov"],
+  "config_flow": true,
+  "dependencies": ["infrared"],
+  "documentation": "https://github.com/amasolov/ha-awol-aetherion-ir",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "version": "1.0.0"
+}
