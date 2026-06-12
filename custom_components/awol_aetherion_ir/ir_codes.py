@@ -11,7 +11,7 @@ import base64
 from enum import Enum
 from typing import override
 
-from infrared_protocols import Command
+from infrared_protocols.commands import Command
 
 CARRIER_FREQ_HZ = 38_000
 
